@@ -34,7 +34,7 @@ https://www.myget.org/F/frends-community/api/v3/index.json and in Gallery view i
 
 | Property    | Type   | Description                    | Example               |
 | ------------|--------|--------------------------------|-----------------------|
-| AccessToken | string | Service accounts access token. | dfdewmfkmöafnlkewmfew |
+| AccessToken | string | Service accounts access token. | dfdewmfkmï¿½afnlkewmfew |
 
 # Building
 
@@ -74,3 +74,4 @@ NOTE: Be sure to merge the latest from "upstream" before making a pull request!
 | Version | Changes                                                      |
 |---------|--------------------------------------------------------------|
 | 1.0.0   | Initial implementation of GetServiceAccountAccessToken-Task. |
+| 1.1.0   | Added target frameworks net6 & net8. Dependencies updated: System.ComponentModel.Annotations to 5.0.0, Google.Apis.Auth to 1.68.0, NUnit3TestAdapter to 4.6.0, Microsoft.NET.Test.Sdk to 17.12.0 |
